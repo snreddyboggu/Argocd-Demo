@@ -17,8 +17,8 @@ spec:
     spec:
       containers:
         - name: solar-system
-          image: siddharth67/solar-system:v3
+          image: siddharth67/solar-system:v6
           imagePullPolicy: Always
           ports:
             - containerPort: 80
-#kubectl port-forward svc/solar-system-service -n solar-system 8080:80
+#kubectl port-forward svc/solar-system-service -n solar-system 8081:80
